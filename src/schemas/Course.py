@@ -1,7 +1,7 @@
 from src import mm
 
 
-class CoursesSchema(mm.SQLAlchemySchema):
+class CourseSchema(mm.SQLAlchemySchema):
     class Meta:
         fields = ('course_id',
                   'course_name',

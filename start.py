@@ -1,4 +1,4 @@
-from src import myapp
+from src import api
 
-myapp.debug = True
-myapp.run(port=8090)
+api.debug = True
+api.run(port=8090)
